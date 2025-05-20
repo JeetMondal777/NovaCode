@@ -21,7 +21,7 @@ const WhyChooseSection = () => {
   const team = [
     { name: "VINEET KUMAR SINGH", role: "CEO" },
     { name: "SHUBHAM DAS", role: "CFO" },
-    { name: "SHUDHANSHU MISHRA", role: "CIO" },
+    { name: "SHUDHANSHU MISHRA", role: "CTO" },
     { name: "SIDDHARTH PRATAP SINGH", role: "CHRO" }
   ];
 
