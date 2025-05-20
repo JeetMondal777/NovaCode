@@ -20,9 +20,9 @@ const WhyChooseSection = () => {
 
   const team = [
     { name: "VINEET KUMAR SINGH", role: "CEO" },
-    { name: "SHUBHAM DAS", role: "DIRECTOR" },
+    { name: "SHUBHAM DAS", role: "CFO" },
     { name: "SHUDHANSHU MISHRA", role: "CIO" },
-    { name: "SIDDHARTH PRATAP SINGH", role: "DIRECTOR" }
+    { name: "SIDDHARTH PRATAP SINGH", role: "CHRO" }
   ];
 
   return (
