@@ -19,10 +19,10 @@ const WhyChooseSection = () => {
   ];
 
   const team = [
-    { name: "Alex Johnson", role: "Founder" },
-    { name: "Maya Patel", role: "Program Director" },
-    { name: "Sam Chen", role: "Technical Lead" },
-    { name: "Taylor Smith", role: "Career Coach" }
+    { name: "VINEET KUMAR SINGH", role: "CEO" },
+    { name: "SHUBHAM DAS", role: "DIRECTOR" },
+    { name: "SHUDHANSHU MISHRA", role: "CIO" },
+    { name: "SIDDHARTH PRATAP SINGH", role: "DIRECTOR" }
   ];
 
   return (

@@ -14,29 +14,19 @@ const Partners = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 opacity-60">
           <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 1</div>
+            <div className="text-2xl font-bold text-gray-400">Rahul Jha</div>
           </div>
           <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 2</div>
+            <div className="text-2xl font-bold text-gray-400">Ravi Singh</div>
           </div>
           <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 3</div>
+            <div className="text-2xl font-bold text-gray-400">Krish Mishra</div>
           </div>
           <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 4</div>
+            <div className="text-2xl font-bold text-gray-400">Arijit Singh</div>
           </div>
-          <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 5</div>
-          </div>
-          <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 6</div>
-          </div>
-          <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 7</div>
-          </div>
-          <div className="h-32 bg-gray-100 rounded-lg flex items-center justify-center p-6">
-            <div className="text-2xl font-bold text-gray-400">Partner 8</div>
-          </div>
+
+        
         </div>
       </main>
       <Footer />
