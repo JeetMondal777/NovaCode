@@ -34,7 +34,7 @@ const Apply = () => {
               htmlFor="terms" 
               className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
             >
-              I agree to the Terms and Conditions
+              I agree to the <a href="/termsandconditions" className="text-novacode-purple underline hover:text-novacode-darkpurple" target="_blank" rel="noopener noreferrer">Terms and Conditions</a>
             </label>
           </div>
           

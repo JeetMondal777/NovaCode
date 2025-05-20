@@ -12,6 +12,7 @@ import Connect from "./pages/Connect";
 import Info from "./pages/Info";
 import Apply from "./pages/Apply";
 import NotFound from "./pages/NotFound";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
             <Route path="/connect" element={<Connect />} />
             <Route path="/info" element={<Info />} />
             <Route path="/apply" element={<Apply />} />
+            <Route path="/termsandconditions" element={<TermsAndConditions />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AnimatePresence>
