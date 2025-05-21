@@ -18,12 +18,7 @@ const WhyChooseSection = () => {
     }
   ];
 
-  const team = [
-    { name: "VINEET KUMAR SINGH", role: "CEO" },
-    { name: "SHUBHAM DAS", role: "CFO" },
-    { name: "SHUDHANSHU MISHRA", role: "CTO" },
-    { name: "SIDDHARTH PRATAP SINGH", role: "CHRO" }
-  ];
+
 
   return (
     <div className="bg-white py-20">
@@ -69,34 +64,7 @@ const WhyChooseSection = () => {
           ))}
         </div>
         
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
-          viewport={{ once: true }}
-          className="mt-20 bg-gradient-to-br from-gray-50 to-white p-10 rounded-2xl shadow-sm"
-        >
-          <h3 className="text-2xl font-heading font-semibold text-center mb-10">Meet the Novacode Team</h3>
-          <div className="flex flex-wrap justify-center gap-10">
-            {team.map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.3, delay: 0.1 * index }}
-                whileHover={{ y: -5 }}
-                viewport={{ once: true }}
-                className="flex flex-col items-center"
-              >
-                <div className="h-16 w-16 rounded-full bg-gradient-to-br from-novacode-purple to-novacode-lightpurple text-white flex items-center justify-center mb-3 shadow-md">
-                  <span className="text-lg font-medium">{member.name.charAt(0)}</span>
-                </div>
-                <h4 className="font-medium text-gray-800">{member.name}</h4>
-                <span className="text-sm text-gray-600">{member.role}</span>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+
       </div>
     </div>
   );

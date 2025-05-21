@@ -13,6 +13,7 @@ import Info from "./pages/Info";
 import Apply from "./pages/Apply";
 import NotFound from "./pages/NotFound";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="/info" element={<Info />} />
             <Route path="/apply" element={<Apply />} />
             <Route path="/termsandconditions" element={<TermsAndConditions />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </AnimatePresence>
