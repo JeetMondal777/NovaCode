@@ -8,7 +8,7 @@ const TermsAndConditions = () => (
       <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-10 border border-gray-100">
         <h1 className="text-4xl font-bold text-center mb-8 text-novacode-purple">Terms and Conditions</h1>
         <p className="text-lg text-gray-700 mb-8 text-center">
-          Our internships are <span className="font-semibold text-novacode-purple">100% free</span> with a small platform fee of <span className="font-semibold">₹50-70</span> only.
+          Our internships are <span className="font-semibold text-novacode-purple">100% free</span> with a small platform fee of <span className="font-semibold">₹199-249</span> only.
         </p>
         <ol className="list-decimal list-inside space-y-6 text-gray-800">
           <li>
