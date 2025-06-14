@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProgramCard from "@/components/ProgramCard";
@@ -58,11 +57,11 @@ const Program = () => {
                 All our programs are 100% free and focused on providing real-world experience.
               </p>
             </motion.div>
-          
+  
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
               {programs.map((program, index) => (
                 <motion.div
-                  key={index}
+                  key={program.title}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
