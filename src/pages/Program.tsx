@@ -18,7 +18,7 @@ const Program = () => {
         "Real-world project portfolio",
         "Industry mentorship"
       ],
-      duration: "12 weeks intensive program",
+      duration: "8 weeks intensive program",
       schedule: "Starting monthly",
       spots: "Limited to 20 participants",
       popular: true
@@ -32,7 +32,7 @@ const Program = () => {
         "Content Creation strategies",
         "Analytics and reporting"
       ],
-      duration: "10 weeks intensive program",
+      duration: "4 weeks intensive program",
       schedule: "Starting monthly",
       spots: "Limited to 15 participants"
     }

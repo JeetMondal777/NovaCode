@@ -17,7 +17,7 @@ const TermsAndConditions = () => (
           </li>
           <li>
             <span className="font-semibold">Platform Fee</span>
-            <p className="mt-2 text-gray-600">A nominal platform fee of ₹50-70 is charged to cover administrative costs, digital infrastructure, and certificate issuance. This one-time fee is collected upon acceptance into the program.</p>
+            <p className="mt-2 text-gray-600">A nominal platform fee of ₹199-249 is charged to cover administrative costs, digital infrastructure, and certificate issuance. This one-time fee is collected upon acceptance into the program.</p>
           </li>
           <li>
             <span className="font-semibold">What's Included</span>
