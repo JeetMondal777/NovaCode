@@ -6,24 +6,43 @@ import { Link as ScrollLink } from "react-scroll";
 import { Button } from "@/components/ui/button";
 import { Sparkles } from "lucide-react";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Program = () => {
+  const navigate = useNavigate();
   // Use state to hold programs in case you need to update dynamically
   const [programs, setPrograms] = useState([
     {
-      title: "Web Development",
+      title: "Full-Stack Web Development",
       description: "Learn front-end and back-end development with modern frameworks",
       features: [
         "HTML, CSS, JavaScript fundamentals",
         "React and Node.js development",
+        "Learn to build responsive web applications",
         "Real-world project portfolio",
-        "Industry mentorship"
+        "End to End Project from Develoment to Deployment",
       ],
       duration: "8 weeks intensive program",
       schedule: "Starting monthly",
       spots: "Limited to 20 participants",
       popular: true
     },
+{
+  title: "Generative AI Development",
+  description: "Master the end‑to‑end generative AI workflow—from data processing and model training to deployment and monitoring",
+  features: [
+    "JavaScript programming",
+    "Prompt engineering for large language models",
+    "Model fine‑tuning, optimization & evaluation",
+    "Building and deploying Image Generation models and AI services",
+    "Capstone project: create your own generative AI chatbot",
+  ],
+  duration: "4‑week immersive program",
+  schedule: "New cohorts start quarterly",
+  spots: "Limited to 15 participants",
+  popular: true
+},
+
     {
       title: "Digital Marketing",
       description: "Master digital marketing strategies and campaigns",
@@ -83,13 +102,15 @@ const Program = () => {
 
             {/* Apply Now Button */}
             <motion.div
+              onClick={()=> navigate("/apply")}
               className="text-center mt-12"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.3 }}
             >
               <ScrollLink to="apply-section" smooth duration={800}>
-                <Button className="bg-gradient-to-r from-novacode-purple to-novacode-darkpurple hover:opacity-90 transition-opacity shadow-lg px-6 py-6 text-base">
+                <Button
+                className="bg-gradient-to-r from-novacode-purple to-novacode-darkpurple hover:opacity-90 transition-opacity shadow-lg px-6 py-6 text-base">
                   <Sparkles className="mr-2 h-5 w-5" />
                   Apply Now
                 </Button>

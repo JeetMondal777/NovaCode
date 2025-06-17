@@ -7,14 +7,16 @@ import { Link } from "react-router-dom";
 const FeaturedPrograms = () => {
   const featuredPrograms = [
     {
-      title: "Web Development",
+      title: "Full-Stack Web Development",
       description: "Learn front-end and back-end development with modern frameworks",
       features: [
         "HTML, CSS, JavaScript fundamentals",
         "React and Node.js development",
+        "Learn to build responsive web applications",
         "Real-world project portfolio",
+        "End to End Project from Develoment to Deployment",
       ],
-      duration: "12 weeks intensive program",
+      duration: "8 weeks intensive program",
       schedule: "Starting monthly",
       popular: true
     },
@@ -26,7 +28,7 @@ const FeaturedPrograms = () => {
         "Social Media Marketing",
         "Content Creation strategies",
       ],
-      duration: "10 weeks intensive program",
+      duration: "4 weeks intensive program",
       schedule: "Starting monthly"
     }
   ];

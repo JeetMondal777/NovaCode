@@ -89,7 +89,7 @@ const Hero = () => {
         <p className="text-lg md:text-xl text-white/95 italic">
           "Your journey to success begins with a single step. Take it with Novacode."
         </p>
-        <div className="mt-2 text-white/80 text-sm">— Jane Doe, Program Director</div>
+        <div className="mt-2 text-white/80 text-sm">— Robert Williamson, Program Director</div>
       </motion.div>
       
       <motion.div 
