@@ -8,7 +8,7 @@ const TermsAndConditions = () => (
       <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-lg p-10 border border-gray-100">
         <h1 className="text-4xl font-bold text-center mb-8 text-novacode-purple">Terms and Conditions</h1>
         <p className="text-lg text-gray-700 mb-8 text-center">
-          Our internships are <span className="font-semibold text-novacode-purple">100% free</span> with a small platform fee of <span className="font-semibold">₹199-249</span> only.
+          Our internships are <span className="font-semibold text-novacode-purple">100% free</span> with a small platform fee of <span className="font-semibold">₹69-249</span> only.
         </p>
         <ol className="list-decimal list-inside space-y-6 text-gray-800">
           <li>
@@ -17,7 +17,7 @@ const TermsAndConditions = () => (
           </li>
           <li>
             <span className="font-semibold">Platform Fee</span>
-            <p className="mt-2 text-gray-600">A nominal platform fee of ₹199-249 is charged to cover administrative costs, digital infrastructure, and certificate issuance. This one-time fee is collected upon acceptance into the program.</p>
+            <p className="mt-2 text-gray-600">A nominal platform fee of ₹69-249 is charged to cover administrative costs, digital infrastructure, and certificate issuance. This one-time fee is collected upon acceptance into the program.</p>
           </li>
           <li>
             <span className="font-semibold">What's Included</span>
